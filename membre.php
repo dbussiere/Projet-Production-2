@@ -25,12 +25,13 @@
 		<div class="container-fluid nopnom">
 			<h2 class="eve">ZONE MEMBRE</h2>
 		</div>
+		<div class="container-fluid bcggrispale">
 		<div class="container servfree">
 			<h3>SERVICES GRATUITS AUX MEMBRES</h3>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 servmembre">
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 aidecom">
 				<h5>AIDE AUX COMMUNICATIONS</h5>
-				<ul>
+				<ul class="txt18">
 					<li><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Tutorat de presse</a></li>
 					<li><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i>Diffusion médiatique</a></li>
 					<li><a href="#"><i class="fa fa-microphone" aria-hidden="true"></i>Radio</a></li>
@@ -38,16 +39,16 @@
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h5>ESPACES DE RENCONTRE</h5>
-				<ul>
+				<ul  class="txt18">
 					<li><a href="#"><i class="fa fa-street-view" aria-hidden="true"></i>Salle de réunion</a></li>
 					<li><a href="#"><i class="fa fa-black-tie" aria-hidden="true"></i>Salon des entrepreuneurs</a></li>
 				</ul>
 			</div>
 			</div>
 		</div>
+</div>
 
-
-		<div class="container-fluid implication">
+		<div class="container-fluid implication deggristop">
 			<h3 class="reseau">S'IMPLIQUER, ÊTRE EN ACTION<br>SAISIR DES OPPORTUNITÉS !</h3>
 			<p class="evetxt">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres<br>tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>		
 		</div>
@@ -78,29 +79,34 @@
 			</div>
 		</div>
 
-		<div class="container-fluid">
+		<div class="container-fluid deggristop margtop">
 			<div class="container">
+				<div class="relation">
 				<h3 class="membre">UNE BONNE RELATION D'AFFAIRES<br>ÇA COMMENCE ICI!</h3>
 				<p>La Chambre met en valeur le succès économique régional des entreprises et des gens d'affaires de la région. Elle intervient de façon vigilante et constructive auprès des instances et autorités afin de défendre ses membres. Elle stimule le réseautage de ses membres et développe les compétences des gens d'affaires en offrant de l'information, de l'expertise eten les aiguillant vers les ressources locales.</p>
+				</div>
 
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<p><span class="bold dark">Être membre c'est</span><span class="huge bold dark">25% de rabais</span><span class="txt16">sur tous les évènements</span></p>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 servmembre txtcentrer logomembrebas">
+		
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding7 txtgrispale blocbas">
+					<p><span class="bold txtgrisfonce txt20">Être membre c'est</span><br><span class="txt30 bold txtgrisfonce">25% de rabais</span><br><span class="txt18">sur tous les évènements</span></p>
 					<div class="dadhesion">
-						<p class="titredadh">Double-adhésion !</p>
+						<p class="bold">Double-adhésion !</p>
 						<p>Obtenez le double de services avec la double-adhésion CCIS + Jeune Chambre de commerce de la Mauricie</p>
 						<a href="#" class="txtrouge">jccm.qc.ca</a>
 					</div>
 					<button type="button"><i class="fa fa-user" aria-hidden="true"></i>Devenir membre</button>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<h4>Gala Distinction Desjardins</h4>
-					<p class="soustgala">Démarquez-vous et soyez reconnu !</p>
-					<p>Chaque année, le Gala rassemble au-delà de 400 personnes impliquées de près ou de loin dans le milieu des affaires. Pour beaucoup, il s'agit d'un accès privilégié à cette communauté et d'un rayonnement incomparable pour l'entreprise.</p>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 txtgrispale padding7 blocbas2">
+					<h4 class="txt30 txtgrisfonce gala">Gala Distinction Desjardins</h4>
+					<p class="txtgrisfonce txt18 sousgala">Démarquez-vous et soyez reconnu !</p>
+					<p class="sousgalatxt">Chaque année, le Gala rassemble au-delà de 400 personnes impliquées de près ou de loin dans le milieu des affaires. Pour beaucoup, il s'agit d'un accès privilégié à cette communauté et d'un rayonnement incomparable pour l'entreprise.</p>
 					<p class="galadec">Découvrez les avantages d'être finaliste:</p>
 					<button type="button"><i class="fa fa-trophy" aria-hidden="true"></i>Devenez finaliste</button>
 				</div>
 				<div class="logomembre">
 					<img src="img/logoccis.png" alt="">
+				</div>
 				</div>
 			</div>
 
