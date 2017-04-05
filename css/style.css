@@ -100,3 +100,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .rouge{background-color:rgba(251,63,75,0.9);padding:25px 20%; color:white;width:108.5%;margin-left:-30px;margin-top:60px;font-size:18px;text-align:center;}
 .rouge .savoirplus{width:70%;margin:auto;}
 .calendrier{background-color:grey;color:white;text-align:center;height:300px;margin-top:50px;margin-left:5px;}
+
+
+
+
+
+/* ************************************ MEMBRES ***************************************/
+
+.servfree h3{color:#ff4048;text-align:center;margin-top:50px; margin-bottom:50px;}
+.servmembre{border:3px solid #f6f7f9;padding:30px 20px;}
+.aidecom{border-right:3px solid #f6f7f9;}
+.servfree{text-align:center; border-bottom:3px solid white;}
+.servfree h5{background-color:#ff4048;color:white;display:inline-block;padding:10px 45px;margin-bottom:20px;}
+.servfree ul{list-style: none;text-align:left;margin-left:25%;}
+.servfree ul li{margin-top:10px;}
+.servfree ul li a{color:#43545f;}
+.servfree .fa{margin-right:15px;}
+.blocrose{padding: 0 75px;border-top:20px solid white;border-bottom:20px solid white;border-right:20px solid white;width:50%; background:rgba(251,63,75,0.9); text-align:center; color: white;padding: 50px 0;position: absolute;top: -35px;
+				-webkit-box-shadow: 3px 4px 20px 1px rgba(166,163,166,1);
+				-moz-box-shadow: 3px 4px 20px 1px rgba(166,163,166,1);
+				box-shadow: 3px 4px 20px 1px rgba(166,163,166,1);}
+
+.implication h3{line-height: 30px;}
+.implications h4{font-size: 30px;}
+.implication p{font-size:15px;}
+
+.implication{border-top:3px solid grey;}
+
+.fondgris{background:#f6f7f9;position:relative;margin-top:50px;}
+.reseaumargetop{margin-top:50px;}
+.impltxt{padding:30px 100px;text-align:center;color:#8998a5;}
+.impltxt h6{font-size:20px;color:#43545f;}
+.impltxt button{border:none;background-color:#ff4048;color:white;width:50%;height:35px;margin-top:20px;}
+
+
+
+
+.reseautage h3{line-height: 30px;}
+.reseautage h4{font-size: 30px;}
+.reseautage p{font-size:15px;}
+
+.fondgris{background:#f6f7f9;position:relative;margin-top:50px;}
+.reseaumargetop{margin-top:100px;}
+.resetxt{padding:30px 100px;text-align:center;color:#8998a5;}
+.resetxt h6{font-size:20px;color:#43545f;}
+.resetxt button{border:none;background-color:#ff4048;color:white;width:50%;height:35px;margin-top:20px;}
+.resetxt button .fa{margin-right:10px;}
+
+
+
+.bold{font-weight: bold;}
