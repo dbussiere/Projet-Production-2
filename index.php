@@ -65,6 +65,70 @@
 			<h2 class="actu">ACTUALITÉS RÉCENTES</h2>
 		</div>
 		
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 acphoto acphoto1">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fdbleu">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h4>JEUNES ENTREPRENEURS</h4>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fdgris">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h3>LE GOÛT D'ENTREPRENDRE DÈS LE PRÉSCOLAIRE</h3>
+						<p>Chaque année, de nombreuses classes du préscolaire, du primaire et du secondaire réalisent des projets qui visent à résoudre des problèmes ou à répondre à des besoins identifiés par les élèes auprès d'un large public cible.</p>
+						<p class="turquoise"><span class="date">28 mars 2017</span> / par Denis Morin <span class="plus">+</span></p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 acimg">
+					<img src="img/acckid.png" alt="">
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 acphoto acphoto1">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fdbleu">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h4>LES GRANDS DOSSIERS</h4>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fdgris">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h3>À L'AFFÛT DES NOUVELLES TECHNOLOGIES</h3>
+						<p>Chaque année, de nombreuses classes du préscolaire, du primaire et du secondaire réalisent des projets qui visent à résoudre des problèmes ou à répondre à des besoins identifiés par les élèes auprès d'un large public cible.</p>
+						<p class="turquoise"><span class="date">28 mars 2017</span> / par Georges Abdul-Nour <span class="plus">+</span></p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 acimg">
+					<img src="img/accimg2.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid nopnom">
+			<h2 class="actu">ÉVÈNEMENTS</h2>
+		</div>
+		<div class="container">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 acceve1">
+					<h4>DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN-D'OEUVRE EN TI</h4>
+					<a href="#">	
+						<p class="savoirplus">En savoir plus</p>
+					</a>
+			</div>
+
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 acceve2">
+					<h4>DÉFI<br>DES ENTREPRISES</h4>
+					<a href="#">	
+						<p class="savoirplus">En savoir plus</p>
+					</a>
+			</div>
+
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 acceve2">
+					<h4>7E ÉDITION<br>TOUTE LA VILLE PARLE PME</h4>
+					<a href="#">	
+						<p class="savoirplus">En savoir plus</p>
+					</a>
+			</div>
+		</div>
+
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
