@@ -78,9 +78,9 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fdgris">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
-						<h3 class="bold txtgrisfonce">LE GOÛT D'ENTREPRENDRE<br>DÈS LE PRÉSCOLAIRE</h3>
+						<a href="#"><h3 class="bold txtgrisfonce">LE GOÛT D'ENTREPRENDRE<br>DÈS LE PRÉSCOLAIRE</h3>
 						<p class="txtgrispale">Chaque année, de nombreuses classes du préscolaire, du primaire et du secondaire réalisent des projets qui visent à résoudre des problèmes ou à répondre à des besoins identifiés par les élèes auprès d'un large public cible.</p>
-						<p class="turquoise bdblanc"><span class="date">28 mars 2017</span> / par Denis Morin<span class="plus">+</span></p>
+						<p class="turquoise bdblanc"><span class="date">28 mars 2017</span> / par Denis Morin<span class="plus">+</span></p></a>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 acimg">
 					<img src="img/acckid.png" alt="">
@@ -96,9 +96,9 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fdgris">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
-						<h3 class="bold txtgrisfonce">À L'AFFÛT DES NOUVELLES TECHNOLOGIES</h3>
+						<a href="#"><h3 class="bold txtgrisfonce">À L'AFFÛT DES NOUVELLES TECHNOLOGIES</h3>
 						<p class="txtgrispale">Chaque année, de nombreuses classes du préscolaire, du primaire et du secondaire réalisent des projets qui visent à résoudre des problèmes ou à répondre à des besoins identifiés par les élèes auprès d'un large public cible.</p>
-						<p class="turquoise bdblanc"><span class="date">28 mars 2017</span> / par Georges Abdul-Nour<span class="plus">+</span></p>
+						<p class="turquoise bdblanc"><span class="date">28 mars 2017</span> / par Georges Abdul-Nour<span class="plus">+</span></p></a>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 acimg">
 					<img src="img/accimg2.png" alt="">
