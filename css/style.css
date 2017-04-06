@@ -234,3 +234,55 @@ a:hover{text-decoration: none;}
 
 .acceve2{background:url('/img/acceve2.png')no-repeat; padding-left:2%; padding-right:4%;}
 .acceve3{background:url('/img/acceve3.png')no-repeat; padding-left:2%; padding-right:4%;}
+
+
+/* ****** ACCUEIL MEDIAS QUERIES ****** */
+
+@media screen and (max-width: 1199px){
+    .acimg img{width:100%;}
+    .acceve1{background-size:cover; padding-left:2%; padding-right:4%; width:45%; margin-right:10%;}
+    .acceve2{background-size:cover; padding-left:2%; padding-right:4%; width:45%;}
+    .acceve3{background-size:cover; padding-left:2%; padding-right:4%; width:45%; margin-top:30px;}
+
+}
+
+@media screen and (max-width: 991px){
+    .accpushshawi{text-align: center;}
+    .accpushdesjar{text-align: center;}
+    .accpushlauren{text-align: center;}
+    .accpushdeloi{text-align: center;}
+    .parttxt{margin-top:275px;}
+    .accdevenirpartenaire button{margin-top:100px;}
+    .acimg{position:initial;}
+    .fdgris p{margin-bottom:0;}
+    .acceve1{background-size:cover; padding-left:2%; padding-right:4%;width:80%; margin-left:10%;}
+    .acceve1 h4{font-size:2em!important;padding-left:5%; padding-right:5%;}
+    .acceve2{background-size:cover; padding-left:2%; padding-right:4%;width:80%; margin-left:10%; margin-top:30px;}
+    .acceve2 h4{font-size:2em!important;padding-left:5%; padding-right:5%;}
+    .acceve3{background-size:cover; padding-left:2%; padding-right:4%;width:80%; margin-left:10%;}
+    .acceve3 h4{font-size:2em!important;padding-left:5%; padding-right:5%;}
+}
+
+@media screen and (max-width: 520px){
+	.acceve1 h4{font-size:1.5em!important;}  
+    .acceve2 h4{font-size:1.5em!important;}
+    .acceve3 h4{font-size:1.5em!important;}
+}
+
+@media screen and (max-width: 430px){
+	.accdevenirpartenaire button{margin-top:50px;}
+}
+
+@media screen and (max-width: 415px){
+    .accpushshawi{width:100%;}
+    .accpushdesjar{width:100%;}
+    .accpushlauren{width:100%;}
+    .accpushdeloi{width:100%;}
+    .partmajeurgris h2{margin-left:12%;}
+    .fdgris h3{font-size:18px;}
+}
+
+@media screen and (max-width: 350px){
+    .accqueryrouge{font-size:20px;}
+    .parttxt{padding-left:10px;padding-right:10px;}
+}
