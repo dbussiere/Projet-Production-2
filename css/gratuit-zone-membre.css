@@ -1,0 +1,376 @@
+body{font-family: 'Lato', sans-serif;}
+
+/* ************************************ SERVICES GRATUITS AUX MEMBRES ****************************************/
+
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+
+.visible-mobile{display: none!important; visibility: hidden!important;}
+.hidden-mobile{display: block!important; visibility: visible!important;}
+
+.top-bar-section{
+    color: white;
+    text-align: center;
+    padding: 34px 0px;
+    font-size: 2.1em;
+	font-weight: 400;
+    margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.zone-membre{
+    background-color: #4b565f;
+}
+
+.section-services-gratuits{
+	background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 30px;
+}
+
+.title-services-gratuits h3{
+    color: #ed3c44;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 3.2em;
+	font-weight: 100;
+    margin: 0px 0px 60px 0px;
+}
+
+.aide-communication{
+    border-right: 4px solid #f5f7f8;
+    padding: 0px 30px 0px 0px;
+}
+
+.espace-rencontre{
+    padding: 0px 0px 0px 30px;
+}
+
+.section-services-gratuits h3{
+    background: #e7eaed;
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.6em;
+	font-weight: 300;
+    padding: 20px 0px;
+    margin: 0px 0px 40px 0px;
+}
+
+.section-services-gratuits h4{
+    color: #44545f;
+    text-align: left;
+    font-size: 1.6em;
+	font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.single-bloc-info{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e7eaed;    
+}
+
+h4 .fa{
+    width: 40px;
+}
+
+.section-services-gratuits p{
+    color: #7b8998;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 300;
+}
+
+.section-services-gratuits h5{
+    color: #44545f;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 400;
+    margin-top: 15px;
+}
+
+.section-services-gratuits li{
+    color: #7b8998;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 300;
+    margin: 4px 0px;
+}
+
+/* Nav Catégories */
+.buttons-contact-ccis{
+    margin-top: 80px;
+    padding: 0px 30px;
+}
+
+.buttons-contact-ccis ul li{
+    list-style-type: none;
+}
+
+.buttons-contact-ccis li a{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buttons-contact-ccis li a:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+.buttons-contact-ccis li a span{
+    text-transform: uppercase;
+}
+
+.buttons-contact-ccis i{
+    margin-right: 10px;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+                                    /*** MEDIAS QUERIES ***/
+
+/****************************************************************************************************/
+/*************************************** XS-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* XS-SMALL device */
+@media screen and (min-width: 385px) and (max-width: 480px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */ /*body{border: 2px solid blue;}*/
+
+.top-bar-section{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-services-gratuits h3{
+    font-size: 2.4em;
+    margin: 10px 0px 30px 0px;
+}
+
+.section-services-gratuits{
+	border: 0px solid #f5f7f8;
+    padding: 0px 15px;
+}
+
+.aide-communication{
+    border-right: 0px solid #f5f7f8;
+    padding: 0px 0px 0px 0px;
+}
+
+.espace-rencontre{
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+.section-services-gratuits h3{
+    background: #e7eaed;
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.3em;
+	font-weight: 300;
+    padding: 20px 0px;
+    margin: 0px 0px 40px 0px;
+    width: 100%;
+}
+
+.buttons-contact-ccis{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0px 0px;
+}
+
+.buttons-contact-ccis li a{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 0px;
+    margin: 4px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+}/* END - XS-SMALL device */
+
+/****************************************************************************************************/
+/*************************************** SM-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* SM-SMALL device */
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */ /*body{border: 2px solid red;}*/
+
+.top-bar-section{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-services-gratuits h3{
+    font-size: 2.4em;
+    margin: 20px 0px 40px 0px;
+}
+
+.section-services-gratuits{
+	border: 0px solid #f5f7f8;
+    padding: 0px 50px;
+}
+
+.aide-communication{
+    border-right: 0px solid #f5f7f8;
+    padding: 0px 0px 0px 0px;
+}
+
+.espace-rencontre{
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+.section-services-gratuits h3{
+    background: #e7eaed;
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.3em;
+	font-weight: 300;
+    padding: 20px 0px;
+    margin: 0px 0px 40px 0px;
+    width: 100%;
+}
+
+.buttons-contact-ccis{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0px 0px;
+}
+
+.buttons-contact-ccis li a{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 0px;
+    margin: 4px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+}/* END - SM-SMALL device */
+
+/*****************************************************************************************************/
+/*************************************** MD-MEDIUM device ********************************************/
+/*****************************************************************************************************/
+
+/* MD-MEDIUM device */
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */ /*body{border: 2px solid green;}*/
+
+.top-bar-section{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-services-gratuits h3{
+    font-size: 2.4em;
+    margin: 20px 0px 40px 0px;
+}
+
+.section-services-gratuits{
+	border: 0px solid #f5f7f8;
+    padding: 0px 50px;
+}
+
+.aide-communication{
+    border-right: 0px solid #f5f7f8;
+    padding: 0px 0px 0px 0px;
+}
+
+.espace-rencontre{
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+.section-services-gratuits h3{
+    background: #e7eaed;
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.3em;
+	font-weight: 300;
+    padding: 20px 0px;
+    margin: 0px 0px 40px 0px;
+    width: 100%;
+}
+
+.buttons-contact-ccis{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0px 0px;
+}
+
+.buttons-contact-ccis li a{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 0px;
+    margin: 4px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+}/* END - MD-MEDIUM device */
+
+/****************************************************************************************************/
+/*************************************** LG-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* LG-SMALL device */
+@media screen and (min-width: 981px) and (max-width: 1200px){
+
+.visible-desktop{display: block!important; visibility: visible!important;}
+.hidden-desktop{display: none!important; visibility: hidden!important;}
+
+}/* END - LG-SMALL device */
