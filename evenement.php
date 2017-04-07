@@ -32,7 +32,7 @@
 		</div>
 		</div>
 		<div class="container">
-			<div class="row blanc">
+			<div class="row blanc" id="test">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 event" id="event">
 						<div class="eveimage">
 						<img src="https://dummyimage.com/545x300/000/" alt="#">
@@ -40,15 +40,15 @@
 							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 								<p class="dte dteimage"><span class="nbre">02</span>avril</p>
 							</div>
-							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 txtimg ligne">
+							<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 txtimg ligne">
 								<p>7E ÉDITION<br>TOUTE LA VILLE PARLE PME</p>
 							</div>
 						</div>
 						</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 evenopnom nopnom">
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 sousimageeve">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 sousimageeve">
 							<p><span class="prix gras">110$</span></p><p class="evetxtprix"><span class="gras">Dimanche 02 avril 2017</span><br>de 13h à 16h</p>
-							<a href="#"><div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 fondrose">
+							<a href="#"><div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 fondrose" id="inscripeve">
 								<p><i class="fa fa-users" aria-hidden="true"></i>inscription</p>
 							</div></a>
 						</div>
@@ -56,28 +56,28 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus impedit aspernatur ipsum facere quisquam consequuntur et, fuga, odit exercitationem vel sapiente deserunt rem non eaque! Nisi dolor hic, maxime amet.</p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lieu listeeve">
-						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 							<p class="titreeve">Lieu :</p>
 						</div>
-						<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+						<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 							<p class="tresgras">Maison de la culture Francis-Brisson</p>
 							<p>15 Avenue de Grand-Mère, Grand-Mère, QC G9T 2G1</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animation listeeve">
-						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 							<p class="titreeve">Animation :</p>
 						</div>
-						<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+						<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 							<p>M.Frédéric Laflamme</p>
 							<p>Mme. Véronique Buisson</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inclu listeeve">
-						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 							<p class="titreeve">Inclus* :</p>
 						</div>
-						<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+						<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 							<ul>
 								<li>1 consommation au choix</li>
 								<li>Sandwichs & crudités</li>
@@ -87,36 +87,37 @@
 					</div>
 					
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 listedeeve nopnom">
 					
 					<div class="calendrier">Plugin Calendrier</div>
 
 					<div class="evelist">
-						<p class="dte"><span class="nbre">08</span>avril</p>
+						<p class="dte dteeve"><span class="nbre">08</span>avril</p>
 						<a href="#" id="eve1"><p class="evelistdet">DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN D'OEUVRE EN TI</p>
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
 
 					<div class="evelist">
-						<p class="dte"><span class="nbre">12</span>avril</p>
+						<p class="dte dteeve"><span class="nbre">12</span>avril</p>
 						<a href="#" id="eve2"><p class="evelistdet">DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN D'OEUVRE EN TI</p>
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
 
 					<div class="evelist">
-						<p class="dte"><span class="nbre">21</span>avril</p>
+						<p class="dte dteeve"><span class="nbre">21</span>avril</p>
 						<a href="#" id="eve3"><p class="evelistdet">DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN D'OEUVRE EN TI</p>
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
 
 					<div class="evelist">
-						<p class="dte"><span class="nbre">30</span>avril</p>
+						<p class="dte dteeve"><span class="nbre">30</span>avril</p>
 						<a href="#" id="eve4"><p class="evelistdet">DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN D'OEUVRE EN TI</p>
 						<p class="red">En savoir plus +</p>
 						</a>
+						
 					</div>
 					
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 divform">

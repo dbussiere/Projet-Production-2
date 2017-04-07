@@ -84,17 +84,18 @@ a.seeallblogue{margin-left:15px;}
 @media screen and (max-width: 1199px){
     .event img{width:100%;}
     .seeallevea{margin-left:48px;}
-
+.grosbouton{margin-top:0;}
 }
 
 @media screen and (max-width: 991px){
     .jentrepreneur p.turquoise{margin-left:0px!important;}
-    .evelist{display:none;}
+    .evelist1{display:none;}
     .event{width:100%;}
     .seeallevea{width:100%;margin-left:35px;}
     .event{margin-bottom:0;}
     button.seeall.seealleve{margin-top:0;margin-bottom:50px;}
     .seealleve{margin-top:0;margin-left:0px;margin-bottom:50px;}
+    #buttoneve{margin-left:-35px;}
 }
 
 @media screen and (max-width: 767px){
@@ -173,10 +174,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .rouge{background-color:rgba(251,63,75,0.9);padding:25px 20%; color:white;width:108.5%;margin-left:-30px;margin-top:60px;font-size:18px;text-align:center;}
 .rouge .savoirplus{width:70%;margin:auto;}
 .calendrier{background-color:grey;color:white;text-align:center;height:300px;margin-top:50px;margin-left:5px;}
+.listedeeve{padding-left:15px;}
+
+/* ******* MEDIAS QUERY EVENEMENTS ****** */
 
 
 
+@media screen and (max-width: 1199px){
+ 	#inscripeve{margin-top:75px;width:100%!important;}
+ 	.sousimageeve{margin-bottom:100px;}
+}
 
+@media screen and (max-width: 991px){
+ 	.calendrier{display:none;}
+ 	
+}
+
+@media screen and (max-width: 808px){
+ 	.inevequery{width:70%;}
+}
+
+@media screen and (max-width: 767px){
+ 	.dteeve{position:absolute; top:0px;}
+}
+
+@media screen and (max-width: 420px){
+ 	.dteeve{position:absolute; top:10px; left:5%;}
+ 	p.evelistdet{margin-top:100px;}
+ 	.evelist{ padding-left:10%; padding-right:10%;width:100%;}
+}
+
+@media screen and (max-width: 400px){
+ 	.prix{font-size:18px; width:100%;}
+}
+
+@media screen and (max-width: 375px){
+ 	.ligne p{max-width: 185px;}
+}
+
+@media screen and (max-width: 364px){
+ 	.sousimageeve{min-height:100px;padding-top:10px;}
+ 	#inscripeve{margin-top:100px;}
+ 	.evetxtprix .gras{margin-top:0;}
+}
+
+@media screen and (max-width: 350px){
+ 	
+}
 
 /* ************************************ MEMBRES ***************************************/
 .bcggrispale{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+74,ffffff+74,f6f7f9+100,ffffff+100,f2f2f2+100 */

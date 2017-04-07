@@ -90,20 +90,20 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
-					<div class="evelist">
+					<div class="evelist evelist1">
 						<p class="dte"><span class="nbre">08</span>avril</p>
 						<a href="#" id="eve1"><p class="evelistdet">DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN D'OEUVRE EN TI</p>
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
 
-					<div class="evelist">
+					<div class="evelist evelist1">
 						<p class="dte"><span class="nbre">12</span>avril</p>
 						<a href="#" id="eve2"><p class="evelistdet">DÉJEUNER-PANEL DE DISCUSSION SUR LA MAIN D'OEUVRE EN TI</p>
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
-					<a href="evenement.php" class="seeallevea"><button type="button" class="seeall seealleve">section événements <i class="fa  fa-arrow-circle-o-right" aria-hidden="true"></i></button></a>
+					<a href="evenement.php" class="seeallevea"><button type="button" class="seeall seealleve" id="buttoneve">section événements <i class="fa  fa-arrow-circle-o-right" aria-hidden="true"></i></button></a>
 					
 				</div>
 			</div>
@@ -112,7 +112,7 @@
 			<div class="container conblanc">
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 imgrouge part">
 					
-					<a href="#"><div class="rougetrans"><p>Être partenaire,<br>c'est une valeur ajoutée à votre entreprise!</p><p class="savoirplus">En savoir plus</p></div></a>
+					<a href="#"><div class="rougetrans"><p>Être partenaire,<br>c'est une valeur ajoutée à votre entreprise!</p><p class="savoirplus grosbouton">En savoir plus</p></div></a>
 				</div>
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 txtconblanc">
 					<h3>Vous désirez partager votre expertise<br>ou vos services en échange d'une grande visibilité?</h3>
@@ -144,14 +144,14 @@
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<div class="evelist">
+					<div class="evelist evelist1">
 						<p class="dte"><span class="nbre">11</span>mai</p>
 						<a href="#" id="form1"><p class="evelistdet">LA TENUE DE LIVRE:<br>MÉTHODE SIMPLIFIÉE</p>
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
 
-					<div class="evelist">
+					<div class="evelist evelist1">
 						<p class="dte"><span class="nbre">04</span>juin</p>
 						<a href="#" id="form2"><p class="evelistdet">MARKETING WEB:<br>RÉFÉRENCEMENT ET OPTIMISATION</p>
 						<p class="red">En savoir plus +</p>
