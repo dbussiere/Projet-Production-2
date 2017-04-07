@@ -259,6 +259,7 @@ border-bottom: 5px solid white;
 .impltxt h6{font-size:20px;color:#43545f;}
 .impltxt button{border:none;background-color:#ff4048;color:white;width:50%;height:35px;margin-top:20px;}
 
+
 .reseautage h3{line-height: 30px;}
 .reseautage h4{font-size: 30px;}
 .reseautage p{font-size:15px;}
@@ -306,6 +307,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 .blocbas2 button .fa{margin-right:10px;}
 
 .bold{font-weight: bold;}
+
+
+/* ***** MEDIAS QUERIES MEMBRE ****** */
+
+@media screen and (max-width: 991px){
+    .aidecom{border:none;margin-bottom:50px;}
+    .servmembre li{text-align:center!important;}
+    .servmembre ul{margin:0;padding:0;}
+    .servfree{padding:0;}
+    .impltxt{margin-top:200px;}
+    .resetxt{margin-top:200px;}
+    .implications{min-width: 250px}
+    .reseautage{min-width: 250px}
+    .logomembre{display:none;}
+    .blocbas{border:none;margin-bottom:50px;}
+}
+
+@media screen and (max-width: 637px){
+    button.resomembrebouton{width:100%;}
+    .logomembrebas button{width:100%;}
+}
+
+@media screen and (max-width: 450px){
+    .impltxt{padding:20px 10%;}
+    .resetxt{padding:20px 10%;}
+}
+
+@media screen and (max-width: 400px){
+    .servfree h5{padding:10px 10px;}
+}
+
 
 
 /* ********************************** ACCUEIL **********************************************/

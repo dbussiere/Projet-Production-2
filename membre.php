@@ -29,7 +29,7 @@
 		<div class="container servfree">
 			<h3>SERVICES GRATUITS AUX MEMBRES</h3>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 servmembre">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 aidecom">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 aidecom">
 				<h5>AIDE AUX COMMUNICATIONS</h5>
 				<ul class="txt18">
 					<li><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Tutorat de presse</a></li>
@@ -37,7 +37,7 @@
 					<li><a href="#"><i class="fa fa-microphone" aria-hidden="true"></i>Radio</a></li>
 				</ul>
 			</div>
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<h5>ESPACES DE RENCONTRE</h5>
 				<ul  class="txt18">
 					<li><a href="#"><i class="fa fa-street-view" aria-hidden="true"></i>Salle de réunion</a></li>
@@ -56,7 +56,7 @@
 		<div class="container-fluid nopnom">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fondgris nopnom">
 				<div class="implications blocrose"><h4>IMPLICATIONS</h4></div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
 				<div class="impltxt">
 					<h6 class="bold">Impliquez-vous!</h6>
 					<p>S'impliquer dans un ou des comités d'activités de la CCIS est enrichissantet permet notamment de renforcer votre visibilité dans le réseau. Nos comités sont éthiques et respectent un accord sur les conflits d'intérêts et la confidentialité.</p>
@@ -66,14 +66,14 @@
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fondgris reseaumargetop">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fondgris reseaumargetop nopnom">
 				<div class="reseautage blocrose"><h4>RÉSEAUTAGE</h4></div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
 				<div class="resetxt">
 					<h6 class="bold">L'importance du réseau d'affaires !</h6>
 					<p>Améliorer votre réseautage d'affaires et de rencontrer des collaborateurs, fournisseurs et clients potentiels. Venez partager des astuces avec des gens qui comprennent votre réalité! Posséder un bon réseau est une véritable valeur ajoutée à votre entreprise.</p>
 					<p>Consultez-le répertoire des membres:</p>
-					<a href="#"><button type="button"><i class="fa fa-user-plus" aria-hidden="true"></i>Répertoire des membres</button></a>
+					<a href="#"><button type="button" class="resomembrebouton"><i class="fa fa-user-plus" aria-hidden="true"></i>Répertoire des membres</button></a>
 				</div>
 				</div>
 			</div>
@@ -88,7 +88,7 @@
 
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 servmembre txtcentrer logomembrebas">
 		
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding7 txtgrispale blocbas">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding7 txtgrispale blocbas">
 					<p><span class="bold txtgrisfonce txt20">Être membre c'est</span><br><span class="txt30 bold txtgrisfonce">25% de rabais</span><br><span class="txt18">sur tous les évènements</span></p>
 					<div class="dadhesion">
 						<p class="bold">Double-adhésion !</p>
@@ -97,7 +97,7 @@
 					</div>
 					<button type="button"><i class="fa fa-user" aria-hidden="true"></i>Devenir membre</button>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 txtgrispale padding7 blocbas2">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 txtgrispale padding7 blocbas2">
 					<h4 class="txt30 txtgrisfonce gala">Gala Distinction Desjardins</h4>
 					<p class="txtgrisfonce txt18 sousgala">Démarquez-vous et soyez reconnu !</p>
 					<p class="sousgalatxt">Chaque année, le Gala rassemble au-delà de 400 personnes impliquées de près ou de loin dans le milieu des affaires. Pour beaucoup, il s'agit d'un accès privilégié à cette communauté et d'un rayonnement incomparable pour l'entreprise.</p>
