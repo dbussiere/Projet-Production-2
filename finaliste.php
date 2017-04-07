@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>SERVICES GRATUITS AUX MEMBRES</title>
+        <title>PERSONNALITÉ FÉMININE 2017</title>
 		<script src="https://use.fontawesome.com/663ece6c6a.js"></script>
 		
 		<!-- GOOGLE FONT -->
