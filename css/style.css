@@ -1,3 +1,5 @@
+
+/* ************************************** BLOGUE *************************************************/
 body{font-family: 'Lato', sans-serif;}
 .nopnom{margin:0px; padding:0px;}
 h2.actu{color: #44555f; background-color: #e7eaef; text-align:center;padding:20px 0px; font-size:30px;margin-bottom:75px;}
@@ -28,7 +30,7 @@ h2.actu{color: #44555f; background-color: #e7eaef; text-align:center;padding:20p
 .entrep h5{background-color:#2f98a4; display:inline-block;color:white;padding:5px 35px;font-size:14px!important;margin-top:0;margin-bottom:20px;}
 .entrep a{color: #44555f;}
 
-.seeall{width:100%;background-color:#e7eaef;height:50px; border:none;color:#798997;font-size:1.9em; padding-top:5px;padding-bottom:5px;margin-left:-15px;}
+.seeall{width:100%;background-color:#e7eaef;height:48px; border:none;color:#798997;font-size:1.9em; padding-top:5px;padding-bottom:5px;margin-left:-15px;}
 
 h2.eve{color: white; background-color: #44555f; text-align:center;padding:20px 0px; font-size:30px;margin-top:50px;}
 h3.reseau{text-align:center;color:#435561;font-size:20px;margin-top:55px;}
@@ -70,6 +72,77 @@ padding:40px 10px;border-top:1px black solid;border-bottom:1px black solid;}
 .margetop{margin-top:60px;}
 
 .seeallform{margin-left:0;}
+
+.jentrepreneur img{width:80%;}
+a.seeallblogue{margin-left:15px;}
+
+
+
+
+/* ****** MEDIA QUERY BLOGUE ****** */
+
+@media screen and (max-width: 1199px){
+    .event img{width:100%;}
+    .seeallevea{margin-left:48px;}
+
+}
+
+@media screen and (max-width: 991px){
+    .jentrepreneur p.turquoise{margin-left:0px!important;}
+    .evelist{display:none;}
+    .event{width:100%;}
+    .seeallevea{width:100%;margin-left:35px;}
+    .event{margin-bottom:0;}
+    button.seeall.seealleve{margin-top:0;margin-bottom:50px;}
+    .seealleve{margin-top:0;margin-left:0px;margin-bottom:50px;}
+}
+
+@media screen and (max-width: 767px){
+    .techno{display:none;}
+    .gdossier{display:none;}
+    .succes{display:none;}
+    .entrep{display:none;}
+    a.seeallblogue{margin-left:15px;}
+    .dte{position:absolute;top:-120px;}
+}
+
+@media screen and (max-width: 520px){
+    .event img{min-height: 250px;}
+    #formation img{min-height:300px;}
+    #formation .dte{position:absolute;top:-150px;}
+}
+
+
+@media screen and (max-width: 415px){
+  .part .savoirplus{margin-top:50px!important;}
+}
+
+@media screen and (max-width: 390px){
+	.txtconblanc{padding-left:10px;padding-right:10px;}
+}
+
+@media screen and (max-width: 370px){
+	#formation p{max-width: 230px;}
+}
+
+@media screen and (max-width: 350px){
+    .jentrepreneur h4{font-size:18px;}
+    .blgtxtquery{font-size:16px;}
+}
+
+@media screen and (max-width: 330px){
+    .part .rougetrans{font-size:24px;}
+}
+
+@media screen and (max-width: 320px){
+    .seeallevea{font-size:12px;}
+    #formation p{max-width: 220px;}
+    #formation .dte{position:absolute;top:-180px;}
+}
+
+@media screen and (max-width: 299px){
+    .part .rougetrans{font-size:20px;}
+}
 
 
 /* ************************************ EVENEMENTS *************************************************/ 

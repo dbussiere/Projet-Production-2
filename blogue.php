@@ -29,7 +29,7 @@
 		<div class="container" >
 		<div id="act">
 		<a href="">
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 jentrepreneur">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 jentrepreneur">
 
 			<h3>JEUNES ENTREPRENEURS</h3>
 			<img src="https://dummyimage.com/430x300/000/fff" alt="#">
@@ -40,7 +40,7 @@
 		</div>
 		</a>
 		</div>
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 nopnom">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 techno bordertop nopnom">
 				<h5>TECHNOLOGIES</h5>
 				<a href="#" id="actu1"><p class="gras">RENCORCEMENT DU CRÉNEAU DE L'ÉLECTRIFICATION DES TRANSPORTS À SHAWINIGAN</p></a>
@@ -61,7 +61,7 @@
 				<a href="#" id="actu4"><p class="gras">À L'AFFÛT DES NOUVELLES TECHNOLOGIES</p></a>
 				<p class="margbot"><span class="date">28 février 2017</span> / par Georges Abdul-Nour</p>
 			</div>
-			<a href="#"><button type="button" class="seeall">section actualités <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button></a>
+			<a href="#" class="seeallblogue"><button type="button" class="seeall seeallblogue">section actualités <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button></a>
 
 
 		</div>
@@ -81,14 +81,14 @@
 							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 								<p class="dte dteimage"><span class="nbre">02</span>avril</p>
 							</div>
-							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 txtimg">
-								<p>7E ÉDITION<br>TOUTE LA VILLE PARLE PME</p>
+							<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 txtimg">
+								<p class="blgtxtquery">7E ÉDITION<br>TOUTE LA VILLE PARLE PME</p>
 								<p class="det">détails & inscription</p>
 							</div>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
 					<div class="evelist">
 						<p class="dte"><span class="nbre">08</span>avril</p>
@@ -103,18 +103,18 @@
 						<p class="red">En savoir plus +</p>
 						</a>
 					</div>
-					<a href="evenement.php"><button type="button" class="seeall seealleve">section événements <i class="fa  fa-arrow-circle-o-right" aria-hidden="true"></i></button></a>
+					<a href="evenement.php" class="seeallevea"><button type="button" class="seeall seealleve">section événements <i class="fa  fa-arrow-circle-o-right" aria-hidden="true"></i></button></a>
 					
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid congris">
 			<div class="container conblanc">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 imgrouge">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 imgrouge part">
 					
 					<a href="#"><div class="rougetrans"><p>Être partenaire,<br>c'est une valeur ajoutée à votre entreprise!</p><p class="savoirplus">En savoir plus</p></div></a>
 				</div>
-				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 txtconblanc">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 txtconblanc">
 					<h3>Vous désirez partager votre expertise<br>ou vos services en échange d'une grande visibilité?</h3>
 					<p>La CCIS compte parmi ses collaborateurs plus de 25 partenaires qui participent activement au développement économique local par des actions de partage et de soutien. La Chambre s'assure d'offrir une belle visibilité sur toutes ses plates-formes de communication et lors de ses événements en plus de s'assurer d'une étroite collaboration.</p>
 				</div>
@@ -136,14 +136,14 @@
 							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 								<p class="dte dteimage"><span class="nbre">07</span>avril</p>
 							</div>
-							<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 txtimg">
+							<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 txtimg">
 								<p>ÉBAUCHE D'UNE OFFRE<br>DE PARTENARIAT D'AFFAIRES</p>
 								<p class="det">détails & inscription</p>
 							</div>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="evelist">
 						<p class="dte"><span class="nbre">11</span>mai</p>
 						<a href="#" id="form1"><p class="evelistdet">LA TENUE DE LIVRE:<br>MÉTHODE SIMPLIFIÉE</p>
