@@ -36,7 +36,7 @@
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 event" id="event">
 						<div class="eveimage">
 						<img src="https://dummyimage.com/545x300/000/" alt="#">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ineve">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ineve inevequery">
 							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 								<p class="dte dteimage"><span class="nbre">02</span>avril</p>
 							</div>

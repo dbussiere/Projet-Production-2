@@ -139,6 +139,7 @@ a.seeallblogue{margin-left:15px;}
     .seeallevea{font-size:12px;}
     #formation p{max-width: 220px;}
     #formation .dte{position:absolute;top:-180px;}
+    .txtimg{font-size:16px!important;}
 }
 
 @media screen and (max-width: 299px){
