@@ -1,0 +1,392 @@
+body{font-family: 'Lato', sans-serif;}
+
+/* ************************************ SERVICES GRATUITS AUX MEMBRES ****************************************/
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+.green{border: 1px solid green;}
+.red{border: 1px solid red;}
+.blue{border: 1px solid blue;}
+.coral{background: coral;}
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+
+.visible-mobile{display: none!important; visibility: hidden!important;}
+.hidden-mobile{display: block!important; visibility: visible!important;}
+
+.top-bar-section{
+    color: white;
+    text-align: center;
+    padding: 34px 0px;
+    font-size: 2.1em;
+	font-weight: 400;
+    margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.implication{
+    background-color: #4b565f;
+}
+
+.section-implication{
+    padding: 15px 15px;
+}
+
+.section-inside-full-bloc{
+	border: 4px solid #f5f7f8;
+    padding: 10px 40px;
+}
+
+/**** Subtitle + title ****/
+.subtitle-text-implication{
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f7f9+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */
+}
+
+.subtitle-text-implication h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.2em;
+	font-weight: 400;
+}
+
+.subtitle-text-implication p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1.1em;
+	font-weight: 300;
+}
+
+.info-implication{
+    border-bottom: 1px solid #e1e1e2;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.info-implication h2{
+    color: #ed3c44;
+    text-align: left;
+	text-transform: uppercase;
+    font-size: 2.3em;
+	font-weight: 400;
+    margin: 25px 0px 10px 0px;
+}
+
+.info-implication h3{
+    color: #ed3c44;
+    text-align: left;
+    font-size: 1.4em;
+	font-weight: 300;
+    margin: 0px 0px 10px 0px;
+}
+
+/**** IMPLICATIONS COMITÉS ****/
+.implication-content{
+    margin-top: 4px;
+    padding: 0px 30px 30px 0px;
+}
+
+.implication-content h4{
+    color: #2f3438;
+    text-align: left;
+    font-size: 1.6em;
+	font-weight: 300;
+    margin: 0px 0px 15px 0px;
+}
+
+.implication-content p.single-detail{
+    color: #7b8998;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 300;
+}
+
+.implication-bullet-list li{
+    color: #7b8998;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 300;
+    margin: 4px 0px;
+}
+
+p.ul-minus-margin-bottom{
+    margin-bottom: 20px;
+}
+
+.single-bloc-detail{
+    border-bottom: 1px solid #e1e1e2;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.no-border-single-bloc-detail{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/**** Détails Membres autorisés + Rencontres Annuelles ****/
+p.sub-details{
+    color: #2f3438;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 300;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+p.sub-details span{
+    color: #ed3c44;
+}
+
+h5.sub-title-bold{
+    color: #2f3438;
+    text-align: left;
+    font-size: 1.1em;
+	font-weight: 400;
+    margin-top: 30px;
+}
+
+p.sub-details-bold{
+    color: #2f3438;
+    text-align: left;
+    font-size: 1em;
+	font-weight: 400;
+    padding-left: 40px;    
+}
+
+p.sub-details-bold span{
+    color: #7b8998;
+	font-weight: 300;  
+}
+
+p.single-detail.pitch-line{
+    color: #2f3438;
+	font-weight: 400;   
+}
+
+/**** Bloc Promo ****/
+.img-promo-implication img{
+	width: 530px;
+	height: 169px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.img-promo-implication h2{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);    
+    position: absolute;
+    margin: 60px 0px 0px 15px;
+}
+
+a.btn-contact-implication i{
+    margin-right: 10px;
+}
+
+a.btn-contact-implication{
+    display: block;
+    background: #ee3c43;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 15px 0px;
+    margin: 40px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-contact-implication:hover{
+    text-decoration: none;
+    background: #db373c;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+                                    /*** MEDIAS QUERIES ***/
+
+/****************************************************************************************************/
+/*************************************** XS-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* XS-SMALL device */
+@media screen and (min-width: 385px) and (max-width: 480px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 1px solid blue;}*/
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Subtitle + title ****/
+.subtitle-text-implication{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.subtitle-text-implication h3{
+    font-size: 1em;
+}
+
+.subtitle-text-implication p{
+    font-size: 1em;
+}
+
+.info-implication{
+    border-bottom: 1px solid #e1e1e2;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.info-implication h2{
+    font-size: 1.4em;
+    margin: 10px 0px 10px 0px;
+}
+
+.info-implication h3{
+    font-size: 1.1em;
+    margin: 0px 0px 0px 0px;
+}
+
+/**** IMPLICATIONS COMITÉS ****/
+.implication-content{
+    margin-top: 0px;
+    padding: 0px 0px 30px 0px;
+}
+
+.implication-content h4{
+    font-size: 1.4em;
+    margin: 0px 0px 15px 0px;
+}
+
+p.ul-minus-margin-bottom{
+    margin-bottom: 20px;
+}
+
+.single-bloc-detail{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.no-border-single-bloc-detail{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/**** Bloc Promo ****/
+.img-promo-implication img{
+	width: auto;
+	height: auto;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.img-promo-implication h2{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 38px 0px 0px 10px;
+}
+
+a.btn-contact-implication i{
+    margin-right: 10px;
+}
+
+a.btn-contact-implication{
+    font-size: 1.2em;
+}
+
+}/* END - XS-SMALL device */
+
+/****************************************************************************************************/
+/*************************************** SM-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* SM-SMALL device */
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid red;}*/
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/**** Bloc Promo ****/
+.img-promo-implication img{
+	width: 100%;
+	height: auto;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.img-promo-implication h2{
+    font-size: 1.4em;
+    margin: 45px 0px 0px 15px;
+}
+
+}/* END - SM-SMALL device */
+
+/*****************************************************************************************************/
+/*************************************** MD-MEDIUM device ********************************************/
+/*****************************************************************************************************/
+
+/* MD-MEDIUM device */
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid green;}*/
+
+/**** Bloc Promo ****/
+.img-promo-implication img{
+	width: 100%;
+	height: auto;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.img-promo-implication h2{
+    font-size: 2em;
+    margin: 45px 0px 0px 15px;
+}
+
+}/* END - MD-MEDIUM device */
+
+/****************************************************************************************************/
+/*************************************** LG-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* LG-SMALL device */
+@media screen and (min-width: 981px) and (max-width: 1200px){
+
+.visible-desktop{display: block!important; visibility: visible!important;}
+.hidden-desktop{display: none!important; visibility: hidden!important;}
+
+}/* END - LG-SMALL device */
