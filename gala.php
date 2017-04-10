@@ -58,7 +58,7 @@
                             <!--  Subtitle + description -->
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 edition-year-title">
                                 <h2>Le Gala Distinction Desjardins 2017</h2>
-                                <p>Découvrez nos <a href="">4 finalistes</a> pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017.</p>
+                                <p>Découvrez nos <span>4 finalistes</span> pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017.</p>
                             </div>
 
                         </div><!-- /.row -->

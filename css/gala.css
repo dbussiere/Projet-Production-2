@@ -107,13 +107,8 @@ body{font-family: 'Lato', sans-serif;}
     padding: 0px 50px 0px 50px;
 }
 
-.edition-year-title a{
+.edition-year-title p span{
     color: #ee3c43;
-}
-
-.edition-year-title a:hover{
-    color: #db373c;
-    text-decoration: none;
 }
 
 /**** Navigation Finalistes ****/
