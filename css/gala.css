@@ -1,0 +1,1527 @@
+body{font-family: 'Lato', sans-serif;}
+
+/************************************* SECTION ÉDITION ****************************************/
+/**********************************************************************************************/
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*.green{border: 1px solid green;}
+.red{border: 1px solid red;}
+.blue{border: 1px solid blue;}
+.coral{background: coral;}*/
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+
+.visible-mobile{display: none!important; visibility: hidden!important;}
+.hidden-mobile{display: block!important; visibility: visible!important;}
+
+.top-bar-section{
+    color: white;
+    text-align: center;
+    padding: 34px 0px;
+    font-size: 2.1em;
+	font-weight: 400;
+    margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.gala{
+    background-color: #4b565f;
+}
+
+.section-gala{
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+}
+
+.title-gala h3{
+    color: #ed3c44;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 3.2em;
+	font-weight: 100;
+    margin: 0px 0px 60px 0px;
+    padding: 0px 70px 0px 70px;
+}
+
+.bloc-gala-edition{
+    padding: 0px 30px 0px 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;    
+}
+
+.bloc-gala-finaliste{
+    border-left: 4px solid #f5f7f8;
+    padding: 0px 0px 0px 30px;
+}
+/**** TAG ÉDITION ****/
+.edition-tag img{
+	width: 161px;
+	height: auto;
+    -webkit-filter: drop-shadow(0px 6px 2px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 6px 2px rgba(0, 0, 0, 0.1));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -80px;
+    z-index: 1;
+}
+
+.edition-tag h3{
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width: 100px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -34px;
+    margin-left: -46px;
+    z-index: 1;
+}
+
+/**** Édition / Subtitle + description ****/
+/******************************************/
+.edition-year-title{
+    color: #44545f;
+    text-align: center;
+    font-weight: 400;
+}
+
+.edition-year-title h2{
+    font-size: 1.2em;
+    padding: 140px 0px 0px 0px;
+}
+
+.edition-year-title p{
+    font-size: 1em;
+    padding: 0px 50px 0px 50px;
+}
+
+.edition-year-title a{
+    color: #ee3c43;
+}
+
+.edition-year-title a:hover{
+    color: #db373c;
+    text-decoration: none;
+}
+
+/**** Navigation Finalistes ****/
+/******************************************/
+
+.nav-finaliste-feminine{
+    text-align: center;
+    padding: 0px 70px;
+    margin: 30px 0px 40px 0px;
+}
+
+.nav-finaliste-feminine ul li{
+    list-style-type: none;
+    padding: 4px 4px;
+    margin: 0px 0px;
+}
+
+.nav-finaliste-feminine li a{
+    display: block;
+    background: #e7eaed;
+    text-align: center;
+    color: #44545f;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 7px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+.nav-finaliste-feminine li a:hover{
+    background: #7b8998;
+    color: white;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+.text-finaliste{
+    color: #44545f;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.70em;    
+    padding: 0px 60px 0px 60px;
+}
+
+.text-finaliste a{
+    color: #ee3c43;
+}
+
+.text-finaliste a:hover{
+    color: #db373c;
+    text-decoration: none;
+}
+
+.bloc-historique h3{
+    background: #44545f;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.bloc-historique{
+    color: #44545f;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.70em;
+    padding: 0px 60px 0px 60px;
+    margin-top: 60px;
+}
+
+/************************************* SECTION ÊTRE FINALISTE ****************************************/
+/*****************************************************************************************************/
+
+/**** Subtitle + Texte ****/
+/******************************************/
+.etre-finaliste h2{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 140px 0px 10px 0px;
+}
+
+.etre-finaliste p{
+    color: #44545f;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.70em;    
+    padding: 15px 60px 0px 60px;
+}
+
+.bloc-devenir-finaliste{
+    padding: 0px 40px;
+}
+
+a.btn-devenir-finaliste i{
+    margin-right: 10px;
+}
+
+a.btn-devenir-finaliste{
+    display: block;
+    background: #ee3c43;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 15px 0px;
+    margin: 40px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-devenir-finaliste:hover{
+    text-decoration: none;
+    background: #db373c;
+}
+
+.gradient-background{
+    padding-bottom: 90px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f7f9+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */    
+}
+
+/**** Gagnants Éditions Précedentes ****/
+/***************************************/
+
+.editions-precedentes{
+    background: white;
+    text-align: center;
+    border-top: 10px solid white;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+}
+
+.editions-precedentes h2{
+    color: #44545f;
+    font-size: 2.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 0px 20px 0px;    
+}
+
+.editions-precedentes p{
+    color: #7b8998;
+    font-size: 1.05em;
+    font-weight: 300;
+}
+
+.editions-precedentes ul li{
+    list-style-type: none;
+    padding: 4px 4px;
+    margin: 0px 0px;
+}
+
+.editions-precedentes li a{
+    display: block;
+    background: #ee3c43;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 15px 0px;
+    margin: 30px 0px 80px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.editions-precedentes li a:hover{
+    text-decoration: none;
+    background: #db373c;
+}
+
+/************************************* SECTION PUB & PROMO ****************************************/
+/**************************************************************************************************/
+
+.section-promo-rabais{
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: absolute;
+}
+
+.section-pub-gala{
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: relative;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f7f9+0,f6f7f9+0,ffffff+50,f6f7f9+100 */
+    background: rgb(246,247,249); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,247,249,1) 0%, rgba(246,247,249,1) 0%, rgba(255,255,255,1) 50%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(246,247,249,1) 0%,rgba(246,247,249,1) 0%,rgba(255,255,255,1) 50%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(246,247,249,1) 0%,rgba(246,247,249,1) 0%,rgba(255,255,255,1) 50%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f7f9', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */
+}
+
+.logo-circle{
+    width: 150px;
+    height: 150px;
+    background: white;
+	border: 4px solid #f5f7f8;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.img-logo-ccis{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -52px;
+    margin-left: -45px;
+    z-index: 1;
+}
+
+.position-logo-ccis{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    z-index: 1;    
+}
+
+.section-promo-rabais h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-bold{
+    display: block;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-subtitle{
+    color: #7b8998;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.double-adhesion{
+    color: #7b8998;
+    text-align: center;
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 0px 0px 10px 0px;
+    margin-top: 20px;
+}
+
+.double-adhesion h2{
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.double-adhesion p{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.double-adhesion a{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    margin-bottom: 5px;    
+}
+
+.double-adhesion a:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/* Inscription */
+.inscription-membre-ccis{
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px 30px;
+}
+
+a.btn-inscription{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-inscription:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-inscription span{
+    text-transform: uppercase;
+}
+
+a.btn-inscription i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/************************************* SECTION PROMO GALA ****************************************/
+/**************************************************************************************************/
+
+.section-pub-gala h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.section-pub-gala span{
+    display: block;
+    text-align: center;
+    font-size: 0.60em;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+.section-pub-gala p{
+    color: #44545f;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    padding: 30px 100px 0px 100px;
+}
+
+p.les-avantages{
+    padding-top: 10px;  
+}
+
+/* Devenez Membre */
+.btn-devenir-finaliste{
+    text-align: center;
+    margin-top: 64px;
+    padding: 0px 30px;
+}
+
+a.btn-finaliste{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-finaliste:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-finaliste span{
+    text-transform: uppercase;
+}
+
+a.btn-finaliste i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+.inner-top-shadow{
+    margin-bottom: 100px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+}
+
+.section-promo-description{
+    text-align: center;
+}
+
+.section-promo-description h2{
+    color: #44545f;
+    font-size: 2.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 0px 20px 0px;
+}
+
+.section-promo-description p{
+    color: #7b8998;
+    font-size: 1.05em;
+    font-weight: 300;
+    line-height: 2em;
+    padding: 0px 160px 60px 160px;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+                                    /*** MEDIAS QUERIES ***/
+
+/****************************************************************************************************/
+/*************************************** XS-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* XS-SMALL device */
+@media screen and (min-width: 385px) and (max-width: 480px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid blue;}*/
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-gala{
+	border: 0px solid #f5f7f8;
+    padding: 40px 0px;
+}
+
+.title-gala h3{
+    font-size: 1.6em;
+    margin: 20px 0px 60px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.bloc-gala-edition{
+    padding: 0px 15px 0px 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.bloc-gala-finaliste{
+    border-left: 0px solid #f5f7f8;
+    padding: 0px 0px 0px 0px;
+}
+
+/**** TAG ÉDITION ****/
+.edition-tag img{
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -80px;
+}
+
+.edition-tag h3{
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -46px;
+}
+
+/**** Édition / Subtitle + description ****/
+/******************************************/
+.edition-year-title p{
+    padding: 0px 20px 0px 20px;
+}
+
+/**** Navigation Finalistes ****/
+/******************************************/
+
+.nav-finaliste-feminine{
+    padding: 0px 35px;
+}
+
+.text-finaliste{
+    padding: 0px 30px 0px 30px;
+}
+
+.bloc-historique h3{
+    background: #44545f;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.bloc-historique{
+    padding: 0px 30px 0px 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+/************************************* SECTION ÊTRE FINALISTE ****************************************/
+/*****************************************************************************************************/
+
+/**** Subtitle + Texte ****/
+.etre-finaliste p{
+
+    padding: 15px 30px 0px 30px;
+}
+
+/**** Gagnants Éditions Précedentes ****/
+/***************************************/
+.editions-precedentes{
+    padding-bottom: 40px;
+}
+
+.editions-precedentes h2{
+    color: #44545f;
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 0px 20px 0px;    
+}
+
+.editions-precedentes p{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.editions-precedentes li a{
+    margin: 0px 0px 0px 0px;
+}
+
+.editions-precedentes li a:hover{
+    text-decoration: none;
+    background: #db373c;
+}
+
+/************************************* SECTION PUB & PROMO ****************************************/
+/**************************************************************************************************/
+
+.section-promo-rabais{
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: initial;
+}
+
+.section-pub-gala{
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: initial;
+}
+
+.logo-circle{
+    display: none;
+}
+
+.section-promo-rabais h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-bold{
+    display: block;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-subtitle{
+    color: #7b8998;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.double-adhesion{
+    color: #7b8998;
+    text-align: center;
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 0px 0px 10px 0px;
+    margin-top: 20px;
+}
+
+.double-adhesion h2{
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.double-adhesion p{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.double-adhesion a{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    margin-bottom: 5px;    
+}
+
+.double-adhesion a:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/* Inscription */
+.inscription-membre-ccis{
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px 30px;
+}
+
+a.btn-inscription{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-inscription:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-inscription span{
+    text-transform: uppercase;
+}
+
+a.btn-inscription i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/************************************* SECTION PROMO GALA ****************************************/
+/**************************************************************************************************/
+
+.section-pub-gala h2{
+    font-size: 2em;
+}
+
+.section-pub-gala p{
+    padding: 30px 50px 0px 50px;
+}
+
+p.les-avantages{
+    padding-top: 10px;  
+}
+
+/* Devenez Membre */
+.btn-devenir-finaliste{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+a.btn-finaliste{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-finaliste:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-finaliste span{
+    text-transform: uppercase;
+}
+
+a.btn-finaliste i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+.section-promo-description{
+    text-align: center;
+}
+
+.section-promo-description h2{
+    font-size: 1.6em;
+    margin: 80px 0px 20px 0px;
+    padding: 0px 40px 0px 40px;
+}
+
+.section-promo-description p{
+    font-size: 1.05em;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 0px 40px 60px 40px;
+}
+
+}/* END - XS-SMALL device */
+
+/****************************************************************************************************/
+/*************************************** SM-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* SM-SMALL device */
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid red;}*/
+
+.top-bar-section{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section-gala{
+	border: 0px solid #f5f7f8;
+    padding: 40px 0px;
+}
+
+.title-gala h3{
+    font-size: 1.8em;
+    margin: 20px 0px 60px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.bloc-gala-edition{
+    padding: 0px 15px 0px 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.bloc-gala-finaliste{
+    border-left: 0px solid #f5f7f8;
+    padding: 0px 0px 0px 0px;
+    margin-top: 100px;
+}
+
+/**** TAG ÉDITION ****/
+.edition-tag img{
+    top: 50%;
+    left: 50%;
+    margin-top: -48px;
+    margin-left: -80px;
+}
+
+.edition-tag h3{
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -46px;
+}
+
+/**** Gagnants Éditions Précedentes ****/
+/***************************************/
+
+.editions-precedentes{
+    padding: 0px 60px 40px 60px;
+}
+
+.editions-precedentes h2{
+    color: #44545f;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 0px 20px 0px;    
+}
+
+.editions-precedentes p{
+    font-size: 1em;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.editions-precedentes li a{
+    margin: 0px 30px 0px 30px;
+}
+
+.editions-precedentes li a:hover{
+    text-decoration: none;
+    background: #db373c;
+}
+
+/************************************* SECTION PUB & PROMO ****************************************/
+/**************************************************************************************************/
+
+.section-promo-rabais{
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: initial;
+}
+
+.section-pub-gala{
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: initial;
+}
+
+.logo-circle{
+    display: none;
+}
+
+.section-promo-rabais h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-bold{
+    display: block;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-subtitle{
+    color: #7b8998;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.double-adhesion{
+    color: #7b8998;
+    text-align: center;
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 0px 0px 10px 0px;
+    margin-top: 20px;
+}
+
+.double-adhesion h2{
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.double-adhesion p{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.double-adhesion a{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    margin-bottom: 5px;    
+}
+
+.double-adhesion a:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/* Inscription */
+.inscription-membre-ccis{
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px 150px;
+}
+
+a.btn-inscription{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-inscription:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-inscription span{
+    text-transform: uppercase;
+}
+
+a.btn-inscription i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/************************************* SECTION PROMO GALA ****************************************/
+/**************************************************************************************************/
+
+.section-pub-gala h2{
+    font-size: 2em;
+}
+
+.section-pub-gala p{
+    padding: 30px 50px 0px 50px;
+}
+
+p.les-avantages{
+    padding-top: 10px;  
+}
+
+/* Devenez Membre */
+.btn-devenir-finaliste{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 150px;
+}
+
+a.btn-finaliste{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-finaliste:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-finaliste span{
+    text-transform: uppercase;
+}
+
+a.btn-finaliste i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+.section-promo-description{
+    text-align: center;
+}
+
+.section-promo-description h2{
+    font-size: 1.6em;
+    margin: 80px 0px 20px 0px;
+    padding: 0px 40px 0px 40px;
+}
+
+.section-promo-description p{
+    font-size: 1.05em;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 0px 40px 60px 40px;
+}
+
+}/* END - SM-SMALL device */
+
+/*****************************************************************************************************/
+/*************************************** MD-MEDIUM device ********************************************/
+/*****************************************************************************************************/
+
+/* MD-MEDIUM device */
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid green;}*/
+
+.top-bar-section{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-gala h3{
+    font-size: 3em;
+    margin: 20px 0px 60px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.bloc-gala-edition{
+    padding: 0px 15px 0px 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.bloc-gala-finaliste{
+    border-left: 0px solid #f5f7f8;
+    padding: 0px 0px 0px 0px;
+    margin-top: 100px;
+}
+
+/**** TAG ÉDITION ****/
+.edition-tag img{
+    top: 50%;
+    left: 50%;
+    margin-top: -58px;
+    margin-left: -80px;
+}
+
+.edition-tag h3{
+    top: 50%;
+    left: 50%;
+    margin-top: -34px;
+    margin-left: -46px;
+}
+
+/**** Gagnants Éditions Précedentes ****/
+/***************************************/
+
+.editions-precedentes{
+    padding: 0px 180px 40px 180px;
+}
+
+.editions-precedentes h2{
+    color: #44545f;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 0px 20px 0px;    
+}
+
+.editions-precedentes p{
+    font-size: 1em;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.editions-precedentes li a{
+    margin: 0px 0px 0px 0px;
+}
+
+.editions-precedentes li a:hover{
+    text-decoration: none;
+    background: #db373c;
+}
+
+/************************************* SECTION PUB & PROMO ****************************************/
+/**************************************************************************************************/
+
+.section-promo-rabais{
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: initial;
+}
+
+.section-pub-gala{
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: initial;
+}
+
+.logo-circle{
+    display: none;
+}
+
+.section-promo-rabais h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-bold{
+    display: block;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-promo-rabais span.rabais-subtitle{
+    color: #7b8998;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.double-adhesion{
+    color: #7b8998;
+    text-align: center;
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 0px 0px 10px 0px;
+    margin-top: 20px;
+}
+
+.double-adhesion h2{
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.double-adhesion p{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.double-adhesion a{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    margin-bottom: 5px;    
+}
+
+.double-adhesion a:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/* Inscription */
+.inscription-membre-ccis{
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px 150px;
+}
+
+a.btn-inscription{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-inscription:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-inscription span{
+    text-transform: uppercase;
+}
+
+a.btn-inscription i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/************************************* SECTION PROMO GALA ****************************************/
+/**************************************************************************************************/
+
+.section-pub-gala h2{
+    font-size: 2em;
+}
+
+.section-pub-gala p{
+    padding: 30px 50px 0px 50px;
+}
+
+p.les-avantages{
+    padding-top: 10px;  
+}
+
+/* Devenez Membre */
+.btn-devenir-finaliste{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 150px;
+}
+
+a.btn-finaliste{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-finaliste:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-finaliste span{
+    text-transform: uppercase;
+}
+
+a.btn-finaliste i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+.section-promo-description{
+    text-align: center;
+}
+
+.section-promo-description h2{
+    font-size: 1.6em;
+    margin: 80px 0px 20px 0px;
+    padding: 0px 40px 0px 40px;
+}
+
+.section-promo-description p{
+    font-size: 1.05em;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 0px 40px 60px 40px;
+}
+
+}/* END - MD-MEDIUM device */
+
+/****************************************************************************************************/
+/*************************************** LG-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* LG-SMALL device */
+@media screen and (min-width: 981px) and (max-width: 1200px){
+
+.visible-desktop{display: block!important; visibility: visible!important;}
+.hidden-desktop{display: none!important; visibility: hidden!important;}
+
+}/* END - LG-SMALL device */
