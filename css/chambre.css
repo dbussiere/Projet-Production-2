@@ -1,0 +1,658 @@
+body{font-family: 'Lato', sans-serif;}
+
+/* ************************************ SERVICES GRATUITS AUX MEMBRES ****************************************/
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+.green{border: 1px solid green;}
+.red{border: 1px solid red;}
+.blue{border: 1px solid blue;}
+.coral{background: coral;}
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+
+.visible-mobile{display: none!important; visibility: hidden!important;}
+.hidden-mobile{display: block!important; visibility: visible!important;}
+
+.top-bar-section{
+    color: white;
+    text-align: center;
+    padding: 34px 0px;
+    font-size: 2.1em;
+	font-weight: 400;
+    margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.chambre{
+    background-color: #44545f;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 50px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f7f9+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.2em;
+	font-weight: 400;
+    line-height: 20px;
+}
+
+.top-bar-section-content h3 span{
+    display: block;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1.1em;
+	font-weight: 300;
+    padding: 0px 400px 0px 400px;
+}
+
+/**** CCIS 10 en POINTS ****/
+/***************************/
+
+.pattern-background{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQYV2NkQAXGjEh8YwYGhrMwATAHJAkSgHNAAgBPrgM4E7i5OwAAAABJRU5ErkJggg==) repeat;
+    background-color: #44545f;
+    -moz-box-shadow: inset 0 8px 24px -8px rgba(0, 0, 0, 0.8), inset 0 -8px 24px -8px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: inset 0 8px 24px -8px rgba(0, 0, 0, 0.8), inset 0 -8px 24px -8px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 8px 24px -8px rgba(0, 0, 0, 0.8), inset 0 -8px 24px -8px rgba(0, 0, 0, 0.8);
+    border-bottom: 10px solid white;
+}
+
+.inner-shadow{
+    height: 50px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+}
+
+.bloc-ccis-10-pts{
+    background: white;
+    border: 4px solid #e7eaed;
+    margin: 60px 0px 60px 0px;
+    padding: 0px 0px;
+}
+
+.bloc-ccis-10-pts h2{
+    color: #ed3c44;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 3.2em;
+	font-weight: 100;
+    border-bottom: 1px solid #e7eaed;
+    padding: 26px 0px 30px 0px;
+}
+
+.bloc-ccis-10-pts span{
+    display: block;
+}
+
+.bloc-ccis-10-pts h3{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.8em;   
+    font-weight: 400;
+    margin: 30px 0px 40px 0px;
+}
+
+.ccis-bullet-list{
+    color: #7b8998;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.ccis-bullet-list ul li{
+    padding: 10px 0px;
+}
+
+.ccis-bullet-list ul{
+    margin-bottom: 44px;
+}
+
+/**** Mot des Dirigeants ****/
+/***************************/
+
+.gray-background{
+    background: #f5f7f8;
+    position: relative;
+    /*padding-bottom: 610px;*/
+    margin-top: 160px;
+}
+
+.img-dirigeant{
+	border: 30px solid white;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+	width: auto;
+	height: auto;
+    margin: 0px auto 30px auto;
+    position: absolute;
+    top: -100px;
+    left: 10%;
+    z-index: 1;
+}
+
+.bloc-img-dirigeant h3{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    position: absolute;
+    top: 425px;
+    left: 236px;
+    z-index: 1;
+}
+
+.bloc-img-dirigeant span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.mot-du-dirigeant h2{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 60px 0px 20px 0px;
+}
+
+.mot-du-dirigeant p{
+    color: #7b8998;
+    text-align: left;
+    font-size: 1.05em;
+    font-weight: 300;
+    padding: 0px 40px;
+}
+
+.email-contact{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0px 80px;
+}
+
+a.btn-email-contact{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-email-contact:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+                                    /*** MEDIAS QUERIES ***/
+
+/****************************************************************************************************/
+/*************************************** XS-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* XS-SMALL device */
+@media screen and (min-width: 385px) and (max-width: 480px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+body{border: 1px solid blue;}
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1em;
+	font-weight: 400;
+}
+
+.top-bar-section-content span{
+    display: initial;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1em;
+	font-weight: 300;
+    padding: 0px 15px 0px 15px;
+}
+
+/**** CCIS 10 en POINTS ****/
+/***************************/
+.bloc-ccis-10-pts{
+    padding: 0px 0px 40px 0px;
+}
+
+.bloc-ccis-10-pts h2{
+    font-size: 2em;
+}
+
+.bloc-ccis-10-pts span{
+    display: block;
+}
+
+.bloc-ccis-10-pts h3{
+    font-size: 1.4em;
+    margin: 30px 0px 30px 0px;
+}
+
+.ccis-bullet-list{
+    font-size: 1em;
+}
+
+.ccis-bullet-list ul li{
+    padding: 10px 0px;
+}
+
+.ccis-bullet-list ul{
+    margin-bottom: 0px;
+}
+
+.pattern-background{
+    padding: 0px 15px;
+}
+
+/**** Mot des Dirigeants ****/
+/***************************/
+
+.inner-shadow{
+    display: none;
+}
+
+.gray-background{
+    position: initial;
+    margin-top: 0px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);    
+}
+
+.img-dirigeant{
+	border: 20px solid white;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+	width: auto;
+	height: auto;
+    margin: 40px auto 30px auto;
+    position: initial;
+}
+
+.bloc-img-dirigeant h3{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    position: initial;
+}
+
+.bloc-img-dirigeant span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.mot-du-dirigeant h2{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 30px 0px 20px 0px;
+    padding-top: 30px;
+    border-top: 1px solid #e7eaed;    
+}
+
+.mot-du-dirigeant p{
+    font-size: 1em;
+    padding: 0px 30px;
+}
+
+.email-contact{
+    padding: 0px 40px;
+}
+
+}/* END - XS-SMALL device */
+
+/****************************************************************************************************/
+/*************************************** SM-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* SM-SMALL device */
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+body{border: 2px solid red;}
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1em;
+	font-weight: 400;
+}
+
+.top-bar-section-content span{
+    display: initial;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1em;
+	font-weight: 300;
+    padding: 0px 15px 0px 15px;
+}
+
+/**** CCIS 10 en POINTS ****/
+/***************************/
+.bloc-ccis-10-pts{
+    padding: 0px 0px 40px 0px;
+}
+
+.bloc-ccis-10-pts h2{
+    font-size: 2em;
+}
+
+.bloc-ccis-10-pts span{
+    display: block;
+}
+
+.bloc-ccis-10-pts h3{
+    font-size: 1.4em;
+    margin: 30px 0px 30px 0px;
+}
+
+.ccis-bullet-list{
+    font-size: 1em;
+}
+
+.ccis-bullet-list ul li{
+    padding: 10px 0px;
+}
+
+.ccis-bullet-list ul{
+    margin-bottom: 0px;
+    padding: 0px 60px 0px 80px;
+}
+
+.pattern-background{
+    padding: 0px 15px;
+}
+
+/**** Mot des Dirigeants ****/
+/***************************/
+
+.inner-shadow{
+    display: none;
+}
+
+.gray-background{
+    position: initial;
+    margin-top: 0px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);    
+}
+
+.img-dirigeant{
+	border: 30px solid white;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+	width: auto;
+	height: auto;
+    margin: 40px auto 30px auto;
+    position: initial;
+}
+
+.bloc-img-dirigeant h3{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    position: initial;
+}
+
+.bloc-img-dirigeant span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.mot-du-dirigeant h2{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 30px 0px 20px 0px;
+    padding-top: 30px;
+    border-top: 1px solid #e7eaed;    
+}
+
+.mot-du-dirigeant p{
+    font-size: 1em;
+    padding: 0px 30px;
+}
+
+.email-contact{
+    padding: 0px 120px;
+}
+
+}/* END - SM-SMALL device */
+
+/*****************************************************************************************************/
+/*************************************** MD-MEDIUM device ********************************************/
+/*****************************************************************************************************/
+
+/* MD-MEDIUM device */
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+body{border: 2px solid green;}
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1em;
+	font-weight: 400;
+}
+
+.top-bar-section-content span{
+    display: initial;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1em;
+	font-weight: 300;
+    padding: 0px 15px 0px 15px;
+}
+
+/**** CCIS 10 en POINTS ****/
+/***************************/
+.bloc-ccis-10-pts{
+    padding: 0px 0px 40px 0px;
+}
+
+.bloc-ccis-10-pts h2{
+    font-size: 2em;
+}
+
+.bloc-ccis-10-pts span{
+    display: block;
+}
+
+.bloc-ccis-10-pts h3{
+    font-size: 1.4em;
+    margin: 30px 0px 30px 0px;
+}
+
+.ccis-bullet-list{
+    font-size: 1em;
+}
+
+.ccis-bullet-list ul li{
+    padding: 10px 0px;
+}
+
+.ccis-bullet-list ul{
+    margin-bottom: 0px;
+    padding: 0px 30px 0px 30px;
+}
+
+.pattern-background{
+    padding: 0px 15px;
+}
+
+/**** Mot des Dirigeants ****/
+/***************************/
+
+.inner-shadow{
+    display: none;
+}
+
+.gray-background{
+    position: initial;
+    margin-top: 0px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);    
+}
+
+.img-dirigeant{
+	border: 20px solid white;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.06);
+	width: auto;
+	height: auto;
+    margin: 40px auto 30px auto;
+    position: initial;
+}
+
+.bloc-img-dirigeant h3{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    position: initial;
+}
+
+.bloc-img-dirigeant span{
+    display: block;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.mot-du-dirigeant h2{
+    color: #44545f;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 30px 0px 20px 0px;
+    padding-top: 30px;
+    border-top: none;
+}
+
+.mot-du-dirigeant p{
+    font-size: 1em;
+    padding: 0px 30px;
+}
+
+.email-contact{
+    padding: 0px 40px;
+}
+
+}/* END - MD-MEDIUM device */
+
+/****************************************************************************************************/
+/*************************************** LG-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* LG-SMALL device */
+@media screen and (min-width: 981px) and (max-width: 1200px){
+
+.visible-desktop{display: block!important; visibility: visible!important;}
+.hidden-desktop{display: none!important; visibility: hidden!important;}
+
+}/* END - LG-SMALL device */
