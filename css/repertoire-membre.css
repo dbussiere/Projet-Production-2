@@ -118,6 +118,8 @@ body{font-family: 'Lato', sans-serif;}
 
 .select-default{
     position: relative;
+    background: #7b8998!important;
+    color: #44545f!important;
 }
 
 .select-default-text{
