@@ -15,96 +15,6 @@ body{font-family: 'Lato', sans-serif;}
 .visible-mobile{display: none!important; visibility: hidden!important;}
 .hidden-mobile{display: block!important; visibility: visible!important;}
 
-.top-bar-section{
-    color: white;
-    text-align: center;
-    padding: 34px 0px;
-    font-size: 2.1em;
-	font-weight: 400;
-    margin-bottom: 40px;
-	text-transform: uppercase;
-}
-
-.partenaires{
-    background-color: #4b565f;
-}
-
-.bloc-partenaire{
-    margin: 40px 0px;
-}
-
-/**** Subtitle + title ****/
-.subtitle-text-partenaires{
-    padding-bottom: 50px;
-    margin-bottom: 40px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f7f9+100 */
-    background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */
-}
-
-.subtitle-text-partenaires h3{
-    color: #44545f;
-    text-align: center;
-	text-transform: uppercase;
-    font-size: 1.2em;
-	font-weight: 400;
-}
-
-.subtitle-text-partenaires p{
-    color: #7b8998;
-    text-align: center;
-    font-size: 1.1em;
-	font-weight: 300;
-    padding: 0px 400px 0px 400px;
-}
-
-/************************ Blocs Partenaires *****************************/
-/************************************************************************/
-
-section h2.title-section-partenaire{
-    color: white;
-    text-align: left;
-    font-size: 2em;
-    font-weight: 300;
-    text-transform: uppercase;
-    padding: 58px 0px 58px 80px;
-    margin: 0px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#44545f+0,323d45+100 */
-    background: rgb(68,84,95); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(68,84,95,1) 0%, rgba(50,61,69,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(68,84,95,1) 0%,rgba(50,61,69,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(68,84,95,1) 0%,rgba(50,61,69,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44545f', endColorstr='#323d45',GradientType=0 ); /* IE6-9 */    
-}
-
-.title-padding{
-    padding: 48px 0px 48px 80px!important;
-}
-
-section h2.title-section-partenaire span{
-    display: block;
-    font-weight: 400;
-}
-
-span.small-txt{
-    font-size: 0.75em;
-}
-
-.span-padding-top{
-    padding-top: 5px;
-}
-
-.single-logo{
-    padding: 0px 0px 0px 30px;
-}
-
-.img-logo-partenaire{
-    display: inline-block;
-    border-bottom: 4px solid #f5f7f8;
-}
 
 /************************************* SECTION CONTACTEZ-NOUS ****************************************/
 /**************************************************************************************************/
@@ -398,23 +308,6 @@ a.btn-inscription i{
 /* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
 /*body{border: 1px solid blue;}*/
 
-.top-bar-section{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-/**** Subtitle + title ****/
-.subtitle-text-partenaires{
-    padding-bottom: 30px;
-    margin-bottom: 0px;
-    margin-top: 15px;
-}
-
-.subtitle-text-partenaires p{
-    font-size: 1em;
-    padding: 0px 10px 0px 10px;
-}
-
 /************************************* SECTION CONTACTEZ-NOUS ****************************************/
 /**************************************************************************************************/
 
@@ -489,24 +382,6 @@ section h2.title-section-partenaire{
 
 /* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
 /*body{border: 2px solid red;}*/
-
-.top-bar-section{
-    font-size: 20px;
-    margin-bottom: 40px;
-}
-
-/**** Bloc Promo ****/
-.img-promo-implication img{
-	width: 100%;
-	height: auto;
-    margin: 0px auto;
-    margin-top: 15px;
-}
-
-.img-promo-implication h2{
-    font-size: 1.4em;
-    margin: 45px 0px 0px 15px;
-}
 
 /************************ Blocs Partenaires *****************************/
 /************************************************************************/
@@ -588,27 +463,6 @@ section h2.title-section-partenaire{
 
 /* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
 /*body{border: 2px solid green;}*/
-
-/************************ Blocs Partenaires *****************************/
-/************************************************************************/
-
-section h2.title-section-partenaire{
-    text-align: center;
-    font-size: 1.6em;
-    padding: 30px 50px 30px 50px;
-}
-
-.subtitle-text-partenaires p{
-    padding: 0px 50px 0px 50px;
-}
-
-.bloc-logos-section-partenaires{
-    padding: 0px 24% 0px 24%;
-}
-
-.title-padding{
-    padding: 30px 0px 30px 0px!important;
-}
 
 /************************************* SECTION CONTACTEZ-NOUS ****************************************/
 /**************************************************************************************************/
