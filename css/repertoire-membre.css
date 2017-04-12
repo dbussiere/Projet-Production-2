@@ -1,0 +1,796 @@
+body{font-family: 'Lato', sans-serif;}
+
+/* ************************************ SERVICES GRATUITS AUX MEMBRES ****************************************/
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*.green{border: 1px solid green;}
+.red{border: 1px solid red;}
+.blue{border: 1px solid blue;}
+.coral{background: coral;}*/
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+
+.visible-mobile{display: none!important; visibility: hidden!important;}
+.hidden-mobile{display: block!important; visibility: visible!important;}
+
+.top-bar-section{
+    color: white;
+    text-align: center;
+    padding: 34px 0px;
+    font-size: 2.1em;
+	font-weight: 400;
+    margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.chambre{
+    background-color: #44545f;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 50px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f7f9+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1.2em;
+	font-weight: 400;
+    line-height: 20px;
+}
+
+.top-bar-section-content h3 span{
+    display: block;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1.1em;
+	font-weight: 300;
+    padding: 0px 360px 0px 360px;
+}
+
+/**** LEFT PART - Fiche membre ****/
+/**********************************/
+.img-logo-membre{
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+.fiche-membre{
+    -webkit-box-shadow: 9px 0px 9px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 9px 0px 9px -5px rgba(0,0,0,0.1);
+    box-shadow: 9px 0px 9px -5px rgba(0,0,0,0.1);
+}
+
+.fiche-membre h2{
+    color: white;
+    background: #44545f;
+    text-align: left;
+    font-size: 2.8em;
+    font-weight: 300;
+    padding: 16px 0px 16px 30px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    border-top: 8px solid #e7eaed;
+}
+
+.fiche-membre p{
+    color: #7b8998;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 16px 30px 16px 30px;
+}
+
+.fiche-membre h3{
+    color: #323d45;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 16px 0px 16px 30px;
+}
+
+.fiche-membre h3 a{
+    color: #ee3c43;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+.fiche-membre h3 a:hover{
+    color: #db373c;
+    text-decoration: none;
+}
+
+/**** RIGHT PART - Bloc Recherche ****/
+/*************************************/
+
+.select-default{
+    position: relative;
+}
+
+.select-default-text{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    border-radius: 0px;
+    background: #7b8998;
+    padding: 29px 2px 29px 30px;
+    margin: 0px;
+    border-bottom: 8px solid #e7eaed;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bloc-categorie{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    border-radius: 0px;
+    background: #7b8998;
+    margin-top: 30px;
+    padding: 28px 30px;
+    border-bottom: 8px solid #e7eaed;
+}
+
+.bloc-categorie select{
+   background: transparent;
+   border: none;
+   width: 100%;
+}
+
+.search-result{
+    margin-top: 30px;
+}
+
+.search-result ul{
+    padding: 0px 0px;
+}
+
+.search-result ul li{
+    list-style: none;
+}
+
+/*.search-result ul li:hover{
+    background: #f5f7f8;
+}*/
+
+.search-result ul li a{
+    display: inline-block;
+    color: #7b8998;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px 0px 10px 30px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    width: 100%;
+    border-bottom: 1px solid #e7eaed;
+    -o-transition:.175s;
+    -ms-transition:.175s;
+    -moz-transition:.175s;
+    -webkit-transition:.175s;
+    transition:.175s;
+}
+
+.search-result ul li a:hover{
+    color: #44545f;
+    background: #f5f7f8;    
+    text-decoration: none;
+}
+
+/************************************* SECTION CONTACTEZ-NOUS ****************************************/
+/**************************************************************************************************/
+
+.section-contactez-nous{
+    background: white;
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: absolute;
+}
+
+.section-gens-affaires{
+	border: 4px solid #f5f7f8;
+    padding: 40px 0px;
+    position: relative;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f7f9+0,f6f7f9+0,ffffff+50,f6f7f9+100 */
+    background: rgb(246,247,249); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,247,249,1) 0%, rgba(246,247,249,1) 0%, rgba(255,255,255,1) 50%, rgba(246,247,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(246,247,249,1) 0%,rgba(246,247,249,1) 0%,rgba(255,255,255,1) 50%,rgba(246,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(246,247,249,1) 0%,rgba(246,247,249,1) 0%,rgba(255,255,255,1) 50%,rgba(246,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f7f9', endColorstr='#f6f7f9',GradientType=0 ); /* IE6-9 */
+}
+
+.logo-circle{
+    width: 150px;
+    height: 150px;
+    background: white;
+	border: 4px solid #f5f7f8;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.img-logo-ccis{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -52px;
+    margin-left: -45px;
+    z-index: 1;
+}
+
+.position-logo-ccis{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    z-index: 1;    
+}
+
+.section-contactez-nous h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-contactez-nous span.telephone-bold{
+    display: block;
+    font-size: 1.85em;
+    font-weight: 700;
+}
+
+.section-contactez-nous a.contact-email{
+    color: #323d45;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.section-contactez-nous a.contact-email:hover{
+    text-decoration: none;
+}
+
+/* Inscription */
+.bloc-contactez-nous{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.info-contact p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 60px 0px 68px 0px;
+}
+
+.info-contact span{
+    display: block;
+}
+
+a.btn-contactez-nous{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-contactez-nous:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-contactez-nous span{
+    text-transform: uppercase;
+}
+
+a.btn-contactez-nous i{
+    margin-right: 10px;
+}
+
+a.savoir-plus{
+    color: #ee3c43;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+}
+
+a.savoir-plus:hover{
+    text-decoration: none;
+    color: #db373c;
+}
+
+/************************************* SECTION GENS AFFAIRES ****************************************/
+/****************************************************************************************************/
+
+.section-gens-affaires h2{
+    color: #2f3438;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.section-gens-affaires span{
+    display: block;
+    text-align: center;
+    font-size: 0.60em;
+    font-weight: 300;
+}
+
+.section-gens-affaires p{
+    color: #44545f;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 300;
+    padding: 30px 100px 0px 100px;
+}
+
+p.les-avantages{
+    padding-top: 10px;  
+}
+
+/* Devenez Membre */
+.btn-devenir-membre{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+a.btn-membre{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-membre:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-membre span{
+    text-transform: uppercase;
+}
+
+a.btn-membre i{
+    margin-right: 10px;
+}
+
+/* Inscription évènement */
+.btn-inscription-evenement{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 28px;
+    padding: 0px 30px;
+}
+
+a.btn-inscription{
+    display: block;
+    background: #ff4049;
+    text-align: center;    
+    color: white;
+    font-size: 1.4em;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+a.btn-inscription:hover{
+    text-decoration: none;
+    background: #ee3c43;
+}
+
+a.btn-inscription span{
+    text-transform: uppercase;
+}
+
+a.btn-inscription i{
+    margin-right: 10px;
+}
+
+.inner-top-shadow{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+}
+
+.section-promo-description{
+    text-align: center;
+}
+
+.section-promo-description h2{
+    color: #44545f;
+    font-size: 2.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 0px 20px 0px;
+}
+
+.section-promo-description p{
+    color: #7b8998;
+    font-size: 1.05em;
+    font-weight: 300;
+    line-height: 2em;
+    padding: 0px 160px 60px 160px;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+                                    /*** MEDIAS QUERIES ***/
+
+/****************************************************************************************************/
+/*************************************** XS-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* XS-SMALL device */
+@media screen and (min-width: 385px) and (max-width: 480px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 1px solid blue;}*/
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1em;
+	font-weight: 400;
+}
+
+.top-bar-section-content span{
+    display: initial;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1em;
+	font-weight: 300;
+    padding: 0px 15px 0px 15px;
+}
+
+/**** LEFT PART - Fiche membre ****/
+/**********************************/
+
+.fiche-membre{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fiche-membre h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 16px 0px 16px 0px;
+}
+
+.fiche-membre p{
+    padding: 16px 15px 16px 15px;
+}
+
+/************************************* SECTION CONTACTEZ-NOUS ****************************************/
+/**************************************************************************************************/
+
+.section-contactez-nous{
+    position: initial;
+}
+
+.section-gens-affaires{
+    position: initial;
+}
+
+.position-logo-ccis{
+    display: none;
+}
+
+.section-contactez-nous{
+    display: none;
+}
+
+.inner-top-shadow{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+    box-shadow: inset 0 20px 45px -20px rgba(0,0,0,0.2);
+}
+
+.section-promo-description{
+    text-align: center;
+}
+
+.section-promo-description h2{
+    color: #44545f;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 80px 30px 20px 30px;
+}
+
+.section-promo-description p{
+    color: #7b8998;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 2em;
+    padding: 0px 30px 60px 30px;
+}
+
+/************************ Blocs Partenaires *****************************/
+/************************************************************************/
+
+section h2.title-section-partenaire{
+    text-align: center;
+    font-size: 1.6em;
+    padding: 30px 0px 30px 0px;
+}
+
+.title-padding{
+    padding: 30px 0px 30px 0px!important;
+}
+
+}/* END - XS-SMALL device */
+
+/****************************************************************************************************/
+/*************************************** SM-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* SM-SMALL device */
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid red;}*/
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1em;
+	font-weight: 400;
+}
+
+.top-bar-section-content span{
+    display: initial;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1em;
+	font-weight: 300;
+    padding: 0px 15px 0px 15px;
+}
+
+/**** LEFT PART - Fiche membre ****/
+/**********************************/
+
+.fiche-membre{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fiche-membre h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 16px 0px 16px 0px;
+}
+
+.fiche-membre p{
+    padding: 16px 15px 16px 15px;
+}
+
+/************************ Blocs Partenaires *****************************/
+/************************************************************************/
+
+section h2.title-section-partenaire{
+    text-align: center;
+    font-size: 1.6em;
+    padding: 30px 50px 30px 50px;
+}
+
+.subtitle-text-partenaires p{
+    padding: 0px 50px 0px 50px;
+}
+
+.bloc-logos-section-partenaires{
+    padding: 0px 18% 0px 18%;
+}
+
+.title-padding{
+    padding: 30px 0px 30px 0px!important;
+}
+
+/************************************* SECTION CONTACTEZ-NOUS ****************************************/
+/**************************************************************************************************/
+
+.section-contactez-nous{
+    position: initial;
+}
+
+.section-gens-affaires{
+    position: initial;
+}
+
+.position-logo-ccis{
+    display: none;
+}
+
+.section-contactez-nous{
+    display: none;
+}
+
+/* Inscription évènement */
+.btn-devenir-membre,
+.btn-inscription-evenement{
+    padding: 0px 150px;
+}
+
+}/* END - SM-SMALL device */
+
+/*****************************************************************************************************/
+/*************************************** MD-MEDIUM device ********************************************/
+/*****************************************************************************************************/
+
+/* MD-MEDIUM device */
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+.visible-mobile{display: block!important; visibility: visible!important;}
+.hidden-mobile{display: none!important; visibility: hidden!important;}
+
+/* FOR DEVELOPMENT ONLY PLZ DELETE ME ! */
+/*body{border: 2px solid green;}*/
+
+.top-bar-section{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/**** Top Bar Content ****/
+/*************************/
+.top-bar-section-content{
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+.top-bar-section-content h3{
+    color: #44545f;
+    text-align: center;
+	text-transform: uppercase;
+    font-size: 1em;
+	font-weight: 400;
+}
+
+.top-bar-section-content span{
+    display: initial;
+}
+
+.top-bar-section-content p{
+    color: #7b8998;
+    text-align: center;
+    font-size: 1em;
+	font-weight: 300;
+    padding: 0px 15px 0px 15px;
+}
+
+/************************************* SECTION CONTACTEZ-NOUS ****************************************/
+/**************************************************************************************************/
+
+.section-contactez-nous{
+    position: initial;
+}
+
+.section-gens-affaires{
+    position: initial;
+}
+
+.position-logo-ccis{
+    display: none;
+}
+
+.section-contactez-nous{
+    display: none;
+}
+
+/* Inscription évènement */
+.btn-devenir-membre,
+.btn-inscription-evenement{
+    padding: 0px 150px;
+}
+
+}/* END - MD-MEDIUM device */
+
+/****************************************************************************************************/
+/*************************************** LG-SMALL device ********************************************/
+/****************************************************************************************************/
+
+/* LG-SMALL device */
+@media screen and (min-width: 981px) and (max-width: 1200px){
+
+.visible-desktop{display: block!important; visibility: visible!important;}
+.hidden-desktop{display: none!important; visibility: hidden!important;}
+
+}/* END - LG-SMALL device */
