@@ -12,7 +12,7 @@
 		
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/css/single-style.css">
+		<link rel="stylesheet" href="/css/actualites.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,19 +24,19 @@
 	<body>
         <!-- Top bar Section Article -->
 		<div class="container-fluid no-padding no-margin">
-			<h2 class="top-bar-section article">Jeunes entrepreneurs</h2>
+			<h2 class="top-bar-section sg-article">Article</h2>
 		</div>
 
         <!-- Contenu Section Article -->
 		<div class="container no-padding">
 
             <!-- Block article -->
-            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bloc-article">
+            <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-bloc-article">
 
                 <div class="row">
 
                     <!-- Titre article -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-article-category">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-title-article-category">
                         <h3 class="col-xs-12 col-sm-12 col-md-6 col-lg-6">Jeunes entrepreneurs</h3>
                     </div>
 
@@ -45,28 +45,28 @@
                 <div class="row">
 
                     <!-- LEFT PART - Content article -->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 article-left-part">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
                         <!-- title + author -->
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-article">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-title-article">
                             <!-- Title -->
                             <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Le goût d'entreprendre dès le préscolaire</h3>
                             <!-- Author -->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 author">
-                                <p class="category-color"><span class="date-article">28 mars 2017</span> / par Denis Morin <span class="plus-article pull-right">+</span></p>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 sg-author">
+                                <p class="sg-category-color"><span class="date-article">28 mars 2017</span> / par Denis Morin <span class="sg-plus-article pull-right">+</span></p>
                             </div>
                         </div>
 
                         <!-- IMAGE VISIBLE MOBILE ONLY -->
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 article-right-part visible-mobile hidden-desktop">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 visible-mobile hidden-desktop">
                             <!-- image -->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 single-article-img no-padding">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-single-article-img no-padding">
                                 <img src="img/single-article-img-example.png" alt="" class="img-responsive">
                             </div>
                         </div>
 
                         <!-- Block Text -->
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-article">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-text-article">
 
                             <p>Chaque année, de nombreuses classes du préscolaire, du primaire et du secondaire réalisent des projets qui visent à résoudre des problèmes ou à répondre à des besoins identifiés par les élèves auprès d’un large public cible.</p>
                             <p>Sous la forme de production de biens, de services ou d’événements, les élèves se mobilisent dans toutes les étapes de réalisation de leur projet. Ils collectent des données, planifient, élaborent, réalisent et évaluent leur projet entrepreneurial qui s’adressera à d’autres élèves de l’école ou d’ailleurs, aux familles, aux personnes âgées d’une résidence à proximité, aux enfants malades ou aux populations dans le besoin.</p>
@@ -82,25 +82,25 @@
                     </div><!-- /.article-left-part -->
    
                     <!-- RIGHT PART - Content article -->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 article-right-part no-padding">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding">
 
                         <!-- image -->
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 single-article-img no-padding hidden-mobile visible-desktop">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-single-article-img no-padding hidden-mobile visible-desktop">
                             <img src="img/single-article-img-example.png" alt="" class="img-responsive">
                         </div>
 
                         <!-- Articles Connexes -->
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 more-article-connexe no-padding">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-more-article-connexe no-padding">
 
                             <!-- Title Articles Connexes -->
                             <h3>Ces articles pourraient également vous intéresser :</h3>
 
                             <div class="row">
 
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 content-article-connexe">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-content-article-connexe">
 
                                     <!-- SINGLE block article connexe -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 link-article-connexe">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-link-article-connexe">
                                         <!-- Category title -->
                                         <h5 class="category-technologies">Technologie</h5>
                                         <!-- Link single article connexe -->
@@ -110,7 +110,7 @@
                                     </div>
 
                                     <!-- SINGLE block article connexe -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 link-article-connexe">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-link-article-connexe">
                                         <!-- Category title -->
                                         <h5 class="category-grands-dossiers">Les grands dossiers</h5>
                                         <!-- Link single article connexe -->
@@ -120,7 +120,7 @@
                                     </div>
 
                                     <!-- SINGLE block article connexe -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 link-article-connexe">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-link-article-connexe">
                                         <!-- Category title -->
                                         <h5 class="category-succes-affaires">Les grands dossiers</h5>
                                         <!-- Link single article connexe -->
@@ -130,7 +130,7 @@
                                     </div>
 
                                     <!-- SINGLE block article connexe -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 link-article-connexe">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sg-link-article-connexe">
                                         <!-- Category title -->
                                         <h5 class="category-jeunes-entrepreneurs">Jeunes entrepreneurs</h5>
                                         <!-- Link single article connexe -->
